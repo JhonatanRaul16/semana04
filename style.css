@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+}
+.texto h3{
+    font-size: 25px;
+    color:blue;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.texto input{
+    padding: 5px 20px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 2rem;
+    outline: none;
+}
+.texto button{
+    border: none;
+    background-color: rgb(41, 40, 40);
+    padding: 10px ;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+#content img{
+    margin-top: 2rem;
+    border: 2px solid orange;
+
+}
